@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />   
+    <script src="js/libs/angular/angular.js"></script>  
+    <script src="js/app/main.js"></script>  
+</head>
+<body ng-app="applicationHost">    
+    <div ng-controller="MainController">
+        <h1>{{user.name}}</h1>   
+        <h2>{{user.location}}</h2> 
+        <p><img ng-src="{{user.avatar_url}}" title="{{user.name}}"/></p>       
+    </div>
+</body>
+</html>
